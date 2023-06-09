@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/dbf8d0490c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="parent-container">
+        <div class="search-bar">
+            <input type="search" autofocus id="search-city">
+            <button type="submit" id="search-btn">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+        </div>
+        <div class="info-container">
+            <img src="img/sun.png" alt="sunny" id="weather-img">
+            <p><span id="current-temperature">30</span><span> °C</span></p>
+            <p id="city-name">New Delhi</p>
+        </div>
+        <div class="other-info">
+            <div class="wind">
+                <img src="img/humidity.png" alt="humidity">
+                <p id="humidity"><span>%</span></p>
+            </div>
+            <div class="humidity">
+                <img src="img/wind speed.png" alt="wind-speed">
+                <p id="wind-speed"><span> km/hr</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
